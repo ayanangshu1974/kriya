@@ -1,2 +1,5 @@
 # kriya
 Knowledge-driven Repository-aware Intent interpretation Yielding tested code Automated deployment
+
+With over 30+ Million transactions in a month & 20K+ transactions recieved daily, HP’s Partner Compensation (PC) is one of its kind setup in this space. This setup hosted mostly on/in a vendor infra has had challenges abound one of which is accurate mapping and processing data fetched from multiple sources that too at such scale. Though teams have an analytics platform to have a look if the transactions are mapped/processed succesfully or have encountered errors, partner experience and assessing the reliability of the system calculations is a challenge. With teams distributed across the globe and having diverse pre-requisites, the assessment of accurate mapping and information processing at speed has to comply with HP’s audit guidelines.
+The solution put in place - KRIYA - Knowledge-driven Repository-aware Intent interpretation Yielding tested code Automated deployment is a GenAI based tool enabling users to identify issues much faster and saving on time.
