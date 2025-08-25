@@ -8,7 +8,7 @@ load_dotenv()
 endpoint = "https://cog-ai-kriya-eus-dev.cognitiveservices.azure.com/"
 model_name = "gpt-4o-mini"
 deployment = "gpt-4o-mini"
-
+AZURE_API_KEY="7yjDyQDrl4NHx33rT4cTpLGr1tFNKFsJWyDIW2hO0dOPngEkcYtIJQQJ99BGACYeBjFXJ3w3AAAAACOG1cto"
 subscription_key = os.getenv("AZURE_API_KEY")
 api_version = "2024-12-01-preview"
 
@@ -34,5 +34,6 @@ response = client.chat.completions.create(
     top_p=1.0,
     model=deployment
 )
+
 
 print(response.choices[0].message.content)
