@@ -1,0 +1,15 @@
+csv_verification:
+  row_index: 1        # 0-based index (1 = second row)
+  check_all_rows: true  # If true, check all rows for required columns
+
+  # Define dynamic columns to extract/verify
+  columns:
+    - name: "Reporter ID"
+      required: true
+      to_upper: true
+    - name: "Reporter Company Name"
+      required: true
+      to_upper: true
+    - name: "Country"
+      required: false
+      to_upper: false
